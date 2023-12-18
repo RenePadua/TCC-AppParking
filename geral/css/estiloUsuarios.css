@@ -1,0 +1,71 @@
+
+
+
+/* ----------------------------------- Estilos do usuarios.php ----------------------------------------------- */
+
+
+	  
+	  button.btn.btn-primary {
+		  width: 160px;
+		  white-space: nowrap;
+		  align-middle: center;
+		  justify-content: center
+		  display: flex;
+		  margin: 15px;
+	  }
+	  
+	  input {
+		  width: 30%;
+	  }
+	  
+		.modal-footer button{
+		width: 90px;
+		}
+	  
+	  	label.form-label {
+		display: flex;
+		justify-content: left;
+		margin-top: 10px;
+		margin-bottom: 0;
+		}
+		
+		#senhaAlerta1, #senhaAlerta2 {
+			display: none;
+			color: #f00;
+			background-color: #fff;
+			margin: 0;
+			justify-content: center;
+			align-items: center;
+			border-radius: 25px;
+			
+		}
+
+		
+
+/* ----------------------------------- Estilos  @media do usuarios.php -------------------------------------- */
+
+
+	@media (min-width: 370px) and (max-width: 400px) { 
+
+	  button.btn.btn-primary {
+		  width: 160px;
+		  white-space: nowrap;
+		  align-middle: center;
+		  justify-content: center
+		  display: flex;
+		  margin: 15px;
+		  
+	  }
+
+	}
+	
+	
+  @media (min-width: 275px) and (max-width: 320px) {
+		.modal-footer button{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: no-wrap;
+		margin: auto;
+		}
+    }	

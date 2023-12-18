@@ -1,0 +1,42 @@
+
+
+/* ----------------------------------- Estilos do valores.php ------------------------------------------------------- */
+
+	  table {
+		white-space: nowrap;
+		align-middle: center;
+	  }
+	  
+	  label, td {
+		  display: flex;
+		  align-middle: center;
+		  align-items: right;
+		  justify-content: right;
+		  vertical-align: middle;
+		  margin: auto;
+	  }
+
+	  input {
+		  width: 30%;
+		  text-align: center;
+	  }
+	  
+	  form {
+		  display: flex;
+		  align-middle: center;
+		  justify-content: center;
+		  margin: 0px;
+		  vertical-align: middle;
+		  position: relative;
+	  }
+	  
+	  
+	  button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-left: 20px !important;
+	  }
+
+
+/* ----------------------------------- Estilos @media do valores.php ------------------------------------------------ */

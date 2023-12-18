@@ -1,0 +1,56 @@
+
+/* ----------------------------------- Estilos do cadastro.php ----------------------------------------- */
+
+		.form-group input, .form-group select {
+		width: 450px;
+		}
+		
+		td {
+		white-space: nowrap;
+		}
+		
+		.modal-footer button{
+		width: 90px;
+		}
+/* ----------------------------------- Estilos @media do cadastro.php ----------------------------------- */	
+
+ 
+ @media (min-width: 451px) and (max-width: 600px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 400px;
+		} 
+  }	
+
+
+ @media (min-width: 381px) and (max-width: 450px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 320px;
+		}
+  }	
+  
+  
+  
+  @media (min-width: 321px) and (max-width: 380px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 250px;
+		}
+  }	
+
+
+  @media (min-width: 275px) and (max-width: 320px) {
+		
+		.modal-footer button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: no-wrap;
+		margin: auto;
+		}
+		
+		.form-group input, .form-group select {
+		width: 230px;
+		}
+    }

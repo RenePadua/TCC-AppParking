@@ -1,0 +1,165 @@
+
+/* ----------------------------------- Estilos do saida.php e verSaida.php ----------------------------------------- */
+
+		.form-group input, .form-group select {
+		width: 450px;
+		}
+		
+		.modal-footer button{
+		width: 90px;
+		}
+		
+		#leitorqr {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			width: 320px;
+			height: 320px;
+		}
+		
+		#table-resultado div{
+			display: flex;
+			justify-content: center;
+			width: 320px;
+			margin: auto;
+		}
+		
+		div#filterbutton {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+		}
+		
+		#imprimirRecibo, #valorPago{
+            display: none;
+			color: #000;
+		}
+	
+		
+		
+		/* Estilos específicos para impressão */
+        @media print {
+            #valorAPagar, card-body, body * {
+                visibility: hidden;
+            }
+
+            #imprimirRecibo, #recibo, #recibo * {
+                visibility: visible;
+            }
+			
+			
+			#recibo {
+				border: 2px solid;
+				padding: 15px;
+			}
+
+			#imprimirRecibo, #valorPago {
+            display: block;
+			}
+			
+			  #valorAPagar {
+                display: none;
+            }
+
+            #recibo img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+		
+		
+		
+		
+		
+/* ----------------------------------- Estilos @media do saida.php ----------------------------------- */	
+
+ 
+ @media (min-width: 451px) and (max-width: 600px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 400px;
+		}
+	  
+	  
+  }	
+
+
+ @media (min-width: 381px) and (max-width: 450px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 320px;
+		}
+		
+		#table-resultado div{
+			display: flex;
+			justify-content: center;
+			width: 300px;
+			margin: auto;
+		}
+	  
+  }	
+  
+  
+  
+  @media (min-width: 321px) and (max-width: 380px) {
+	  
+	  
+	  	#leitorqr {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 300px;
+		height: 300px;
+		}
+	  
+	  	.form-group input, .form-group select {
+		width: 250px;
+		}
+		
+		
+		
+			#table-resultado div{
+			display: flex;
+			justify-content: center;
+			width: 240px;
+			margin: auto;
+		}
+	  
+	  
+  }	
+
+
+  @media (min-width: 275px) and (max-width: 320px) {
+		
+		
+		#leitorqr {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 240px;
+		height: 240px;
+		}
+				
+		.modal-footer button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: nowrap;
+		margin: auto;
+		}
+		
+		.form-group input, .form-group select {
+		width: 230px;
+		}
+		
+		#table-resultado div{
+			display: flex;
+			justify-content: center;
+			width: 220px;
+			margin: auto;
+		}
+    }

@@ -1,0 +1,302 @@
+
+
+
+/* ----------------------------------------- Estilos do login.php ----------------------------------------------------------------- */
+
+        #login {
+            background-color: orange;
+        }
+		
+		#grupoItens {
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-gap: 350px;
+			align-items: middle;
+			margin-top: 150px;
+		}
+
+		#loginform {
+			display: flex;
+            justify-content: center;
+            align-items: middle;
+            margin: auto;
+		}
+		
+		#mesmalinha {
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-gap: 60px;
+			margin: 5px auto auto auto;
+			
+        }
+		
+		#loginimg {
+			width: 180px;
+		}
+		
+        #loginform button.btn {
+            background-color: #4B0082;
+            color: #fff;
+        }
+		
+		#loginform button.btn:hover {
+            background-color: #820078;
+            color: #fff;
+        }
+
+        #loginalert {
+            display: flex;
+            justify-content: center;
+            align-items: middle;
+            margin: auto;
+            width: 40%;
+            color: #4B0082;
+            font-weight: bold;
+        }
+
+        #mesmalinha h2 {
+            font-size: 5em;
+			width: 50px;
+        }
+		
+		.form-control {
+				width: 350px;
+		}
+		
+        #loginlabel {
+            font-size: 2em;
+            color: purple;
+        }		
+
+
+/* ----------------------------------------- Estilos @media do login.php ---------------------------------------------------------- */
+		
+		
+	@media (min-width: 992px) and (max-width: 1200px) {
+		#loginimg {
+			width: 140px;
+			margin-left: -20px;
+		}
+	
+		#mesmalinha h2 {
+            font-size: 4em;
+			width: 30px;
+        }
+		
+		#loginlabel {
+			font-size: 1.8em;		
+			font-weight: bold;		
+		}
+		
+		#loginform input {
+			font-size: 1.2em;
+			margin-bottom: 20px;
+		}
+	}
+	
+			
+	@media (min-width: 921px) and (max-width: 991px) {
+		#loginimg {
+			width: 140px;
+			margin-left: -80px;
+		}
+		
+		#mesmalinha h2 {
+            font-size: 4em;
+			width: 30px;
+        }
+		
+		#mesmalinha {
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-gap: 40px;
+			margin: 5px -60px auto auto;	
+        }
+		
+		#loginlabel {
+			font-size: 1.8em;		
+			font-weight: bold;		
+		}
+		
+		#loginform input {
+			font-size: 1.2em;
+			margin-bottom: 20px;
+		}
+		
+	}	
+		
+		
+   @media (min-width: 768px) and (max-width: 920px) {
+            
+
+		#grupoItens {
+			margin-top: -30px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			margin: 0px;
+			grid-gap: 0px;
+			padding: 0px;
+		}
+		
+		#loginimg {
+			width: 180px;
+			margin-left: -200px;
+		}
+		
+		#mesmalinha h2 {
+            font-size: 4em;
+			width: 30px;
+        }
+		
+		#mesmalinha {
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+			margin-top: 40px;
+			margin-bottom: 40px;			
+        }
+		
+		#loginlabel {
+			font-size: 2.3em;		
+			font-weight: bold;			
+		}
+		
+		#loginform input {
+			font-size: 1.8em;
+			margin-bottom: 20px;
+		}
+		
+		#loginform button.btn {
+			width: 140px;
+			font-size: 1.8em;
+            display: flex;
+			justify-content: center;
+            align-items: center;
+			margin: auto;
+		}
+		
+	}
+		
+        @media (min-width: 415px) and (max-width: 767px) {
+            
+
+		#grupoItens {
+			margin-top: -30px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			margin: 0px;
+			grid-gap: 0px;
+			padding: 0px;
+		}
+		
+		#loginimg {
+			width: 140px;
+			margin-left: -120px;
+		}
+		
+		#mesmalinha h2 {
+            font-size: 3em;
+			width: 30px;
+        }
+		
+		#mesmalinha {
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+			margin-bottom: 40px;			
+        }
+		
+		#loginlabel {
+			font-size: 1.7em;		
+			font-weight: bold;			
+		}
+		
+		#loginform input {
+			margin-bottom: 20px;
+		}
+		
+		#loginform button.btn {
+			width: 100px;
+			font-size: 1.3em;
+            display: flex;
+			justify-content: center;
+            align-items: center;
+			margin: auto;
+		}
+		
+	}
+		
+		
+		
+
+        @media (min-width: 270px) and (max-width: 414px) {
+            
+
+		#grupoItens {
+			margin-top: -30px;
+			display: block;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			margin: 0px;
+			grid-gap: 0px;
+			padding: 0px;
+		}
+		
+		
+		#loginform input, #loginlabel, button.btn {
+			width: 260px;
+			font-size: 1.3em;
+		}
+		
+		#loginform input {
+			margin-bottom: 20px;
+		}
+		
+		#loginlabel {
+			font-weight: bold;
+		}
+		
+		#loginform button.btn {
+			width: 100px;
+			font-size: 1.3em;
+            display: flex;
+			justify-content: center;
+            align-items: center;
+			margin: auto;
+			font-weight: bold;
+		}
+		
+		
+		#mesmalinha {
+			display: block;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			margin: 40px;
+			grid-gap: 0px;
+			padding: 0px;
+        }
+
+		#loginimg {
+			display: block;
+			width: 100px;
+			margin-bottom: 20px !important;
+		}
+		
+		#mesmalinha h2, img.rounded-pill {
+			font-size: 2.3em;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+			flex-direction: column;
+			margin: auto;
+			white-space: nowrap;
+        }
+}
+
+

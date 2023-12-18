@@ -1,0 +1,72 @@
+
+/* ----------------------------------- Estilos do marcas.php ---------------------------------------------- */
+		
+		/*Div dos Botões*/
+	  #marcabuttons {
+		white-space: nowrap;
+		align-middle: center;
+		justify-content: center;
+		display: flex;
+		margin: 10px;
+		}
+
+		/*Botões*/
+	  #marcabutton {
+		width: 190px;
+		white-space: nowrap;
+		align-middle: center;
+		justify-content: center;
+		display: flex;
+		margin: 10px;
+		}
+	    
+		
+		/*Labels*/
+	  #marca1, #marca2 {
+		display: flex;
+		justify-content: left;
+		margin-top: 10px;
+		margin-bottom: 0;
+		}
+		
+		
+		.modal-footer button{
+		width: 90px;
+		}
+		
+		
+/* ----------------------------------- Estilos @media do marcas.php -------------------------------------------------- */
+
+	@media (min-width: 270px) and (max-width: 500px) { 
+	
+		/*Div dos Botões*/
+		#marcabuttons {
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		}
+	
+		/*Botões*/
+	  #marcabutton {
+		white-space: nowrap;
+		justify-content: center;
+		display: flex;
+		margin: 15px;
+	    }
+	}
+	
+	
+	
+  @media (min-width: 275px) and (max-width: 320px) {
+		
+		.modal-footer button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: no-wrap;
+		margin: auto;
+		}
+		
+    }	

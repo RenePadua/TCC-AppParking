@@ -1,0 +1,75 @@
+
+/* ----------------------------------- Estilos do relatorio.php ----------------------------------------------------- */
+
+		
+		label#ano.form-label {
+			display: flex;
+			text-align: left!important;
+		}
+
+
+		td{
+			white-space: nowrap;
+		}
+		
+		
+		.modal-footer button{
+		width: 90px;
+		}
+		
+		
+		.form-group input, .form-group select {
+		width: 450px;
+		}
+		
+
+
+/* ----------------------------------- Estilos @media do relatorio.php ---------------------------------------------- */
+
+
+ @media (min-width: 451px) and (max-width: 600px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 400px;
+		}
+	  
+	  
+  }	
+
+
+ @media (min-width: 381px) and (max-width: 450px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 320px;
+		}
+	  
+	  
+  }	
+  
+  
+  
+  @media (min-width: 321px) and (max-width: 380px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 250px;
+		}
+	  
+	  
+  }	
+
+
+  @media (min-width: 275px) and (max-width: 320px) {
+	  
+	  
+	  	.modal-footer button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: nowrap;
+		margin: auto;
+		}
+		
+		.form-group input, .form-group select {
+		width: 230px;
+		}
+    }	

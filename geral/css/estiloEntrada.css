@@ -1,0 +1,125 @@
+
+/* ----------------------------------- Estilos da entrada.php ----------------------------------------- */
+
+		.form-group input, .form-group select {
+		width: 450px;
+		}
+		
+		.modal-footer button{
+		width: 90px;
+		}
+		
+		#imprimirMarca {
+            display: none;
+		}
+		
+		
+		#impressaoTexto {
+            display: none;
+        }
+		
+		
+/* ----------------------------------- Estilos @media da entrada.php ----------------------------------- */	
+
+
+
+      @media print {
+		
+        body * {
+            visibility: hidden;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+        }
+
+        #qrCode, #qrCode * {
+            visibility: visible;
+        }
+		
+		
+	   main, section, article {
+		  margin: 0;
+		  padding: 0;
+		  page-break-before: auto;
+		  page-break-after: auto;
+	   }
+
+
+        #qrCode {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+        }
+
+        #qrCode img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        #impressaoTexto {
+            display: block;
+            color: #000;
+        }
+
+        @page {
+            size: A6;
+        }
+    }
+
+
+
+ 
+ @media (min-width: 451px) and (max-width: 600px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 400px;
+		}
+	  
+	  
+  }	
+
+
+ @media (min-width: 381px) and (max-width: 450px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 320px;
+		}
+	  
+	  
+  }	
+  
+  
+  
+  @media (min-width: 321px) and (max-width: 380px) {
+	  
+	  	.form-group input, .form-group select {
+		width: 250px;
+		}
+	  
+	  
+  }	
+
+
+  @media (min-width: 275px) and (max-width: 320px) {
+		
+		.modal-footer button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: nowrap;
+		margin: auto;
+		}
+		
+		.form-group input, .form-group select {
+		width: 230px;
+		}
+    }	
+
+
+
+  
+  
+  

@@ -1,0 +1,170 @@
+/* ----------------------------------- Estilos do header.php ----------------------------------- */
+
+		#navbarTitulo{
+		display: block;
+		
+		}
+	
+       a.navbar-brand, a.navbar-brand.hover  {
+		  color: #250045;
+		}
+		
+		.navbar-brand a {
+			color: #250045; 
+		}
+		
+		.navbar {
+		  background-color: #fd7e14; 
+		}
+
+		.navbar .nav-link {
+		  color:#250045;
+		}
+
+		.navbar .nav-link:hover {
+		  color: #1a0031;
+		   font-weight: bold;
+		
+		   /* text-shadow: 4px 4px 4px #a945ff; */
+		  
+		}
+
+		.navbar-nav a.nav-link.active , a.nav-link.active.hover{
+			color: #250045;
+			font-weight: bold;
+        }
+
+		.navbar-nav .nav-link.clicked {
+			color: #250045;
+		}
+			
+		.navbar-nav .nav-link.clicked {
+            color: #250045;
+            font-weight: bold;
+		}
+		
+		#subHeader {
+			background-color: #250045;
+			color: #fff;
+		}
+		
+		#offcanvasSpan {
+				display: none;
+		}
+		
+		li i  {
+			display: none;
+			}
+		
+		/*Ícone sol anterior ao switch de contraste*/
+		#sun {
+			margin-right: 7px;
+		}
+		
+		/*Card contendo switch de contraste para o Mobile*/
+		#toogleAcess {
+			position: absolute;
+			margin-left: 140px;
+			margin-top: 160px;
+			margin-right: 10px;
+			background-color: #ffc107;
+			color: #250045;
+			display: none;
+		}
+		
+		
+		.contraste, .contraste select, .contraste option, .contraste input, .contraste input:focus{
+			background-color: #222;
+			color: #fff;
+		}
+		
+		
+		.contraste input::placeholder {
+			color: #ccc;
+			
+		}
+		
+		
+		.contraste td, .contraste tr{
+			background-color: #000;
+			color: #fff !important;
+		}
+		
+		.contraste th, .contraste thead {
+			background-color: #222;
+			color: #fff !important;
+			border-color: #fff;
+		}
+		
+		
+		
+		.contraste .modal-content, .contraste .card {
+			background-color: #333;
+			color: #fff;			
+		}
+		
+		
+		.contraste #myChart {
+			background-color: #fff;
+		}
+		
+    	  img#headerimg {
+            border-color: #fff !important;
+            border: solid 1px;
+        }
+		
+/* -----------------------------   Estilos @media do header.php ---------------------------------------------------    */	
+		  @media (min-width: 992px) and (max-width: 1130px) {
+	
+			#navbarTitulo{
+				display: none;
+			}
+			
+			#headerimg {
+				margin-left: 10px;
+			}
+		}
+	
+		@media (max-width: 991px) {
+			
+			
+			.offcanvas-title {
+				color: #250045;
+			}
+			
+			.navbar .nav-link:hover {
+				color: #250045;
+				font-weight: normal;
+				text-shadow: 0px 0px 0px #250045;
+		  
+			}
+		
+			#subHeader {
+				display: none;
+			}
+			
+			#offcanvasSpan {
+				color: #250045;
+				display: block;
+			}
+			
+			li i  {
+			display: inline;
+			}
+			
+			#toogleAcess {
+			display: block;
+			}
+}	
+		
+        
+        @media (min-width: 300px) and (max-width: 400px) {
+            nav {
+                font-size: 1.2em;
+            }
+            
+         
+            .offcanvas-title {
+                font-size: 1.6em;
+            }
+    }		
