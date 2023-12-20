@@ -1,6 +1,10 @@
 
 /* ----------------------------------- Estilos do marcas.php ---------------------------------------------- */
 		
+		body {
+			margin-top: 150px;
+		}
+		
 		/*Div dos Botões*/
 	  #marcabuttons {
 		white-space: nowrap;
@@ -36,6 +40,14 @@
 		
 		
 /* ----------------------------------- Estilos @media do marcas.php -------------------------------------------------- */
+
+    @media (max-width: 991px) {
+    
+    		body {
+    			margin-top: 100px;
+    		}
+    
+    }
 
 	@media (min-width: 270px) and (max-width: 500px) { 
 	

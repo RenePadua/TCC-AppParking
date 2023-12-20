@@ -1,6 +1,10 @@
 
 /* ----------------------------------- Estilos da entrada.php ----------------------------------------- */
 
+		body {
+			margin-top: 150px;
+		}
+
 		.form-group input, .form-group select {
 		width: 450px;
 		}
@@ -20,8 +24,6 @@
 		
 		
 /* ----------------------------------- Estilos @media da entrada.php ----------------------------------- */	
-
-
 
       @media print {
 		
@@ -70,7 +72,13 @@
     }
 
 
+@media (max-width: 991px) {
 
+		body {
+			margin-top: 100px;
+		}
+
+}
  
  @media (min-width: 451px) and (max-width: 600px) {
 	  

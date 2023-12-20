@@ -1,7 +1,7 @@
-/* ----------------------------------- Estilos do saida.php.php ---------------------------------------- */
+/* ----------------------------------- Estilos do verSaida.php ---------------------------------------- */
 
 		body {
-			margin-top: 150px;
+			margin-top: 150px !important;
 		}
 		
 		.form-group input, .form-group select {
@@ -76,13 +76,13 @@
 		
 		
 		
-/* ----------------------------------- Estilos @media do saida.php ----------------------------------- */	
+/* ----------------------------------- Estilos @media do verSaida.php ----------------------------------- */	
 
 
 @media (max-width: 991px) {
 
 		body {
-			margin-top: 100px;
+			margin-top: 100px !important;
 		}
 
 }

@@ -1,6 +1,10 @@
 
 /* ----------------------------------- Estilos do relatorio.php ----------------------------------------------------- */
 
+		body {
+			margin-top: 150px;
+		}
+		
 		
 		label#ano.form-label {
 			display: flex;
@@ -26,6 +30,13 @@
 
 /* ----------------------------------- Estilos @media do relatorio.php ---------------------------------------------- */
 
+@media (max-width: 991px) {
+
+		body {
+			margin-top: 100px;
+		}
+
+}
 
  @media (min-width: 451px) and (max-width: 600px) {
 	  

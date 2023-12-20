@@ -1,9 +1,19 @@
 
 /* ----------------------------------- Estilos do logs.php ----------------------------------------- */
 
+		body {
+			margin-top: 150px;
+		}
+
 	td {
 		white-space: nowrap;
 		}
 /* ----------------------------------- Estilos @media do logs.php ----------------------------------- */	
 
- 
+ @media (max-width: 991px) {
+
+		body {
+			margin-top: 100px;
+		}
+
+}
