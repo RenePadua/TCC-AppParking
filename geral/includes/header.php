@@ -65,11 +65,12 @@ $menuLinks = [
         'Relatório' => '../pages/relatorio.php',
         'Histórico' => '../pages/historico.php',
         'Valores' => '../pages/valores.php',
-	'Marcas' => '../pages/marcas.php',
-	'Usuários' => '../pages/usuarios.php',
-	'Vagas' => '../pages/vagas.php',
-	'Logs' => '../pages/logs.php',
-	'Pico' => '../pages/pico.php',
+		'Marcas' => '../pages/marcas.php',
+		'Usuários' => '../pages/usuarios.php',
+		'Vagas' => '../pages/vagas.php',
+		'Logs' => '../pages/logs.php',
+		'Pico' => '../pages/pico.php',
+		'Sobre' => '../pages/sobre.php',
         '[Sair]' => '../pages/logout.php'
     ],
 	'Proprietário' => [
@@ -80,11 +81,11 @@ $menuLinks = [
         'Relatório' => '../pages/relatorio.php',
         'Histórico' => '../pages/historico.php',
         'Valores' => '../pages/valores.php',
-	'Marcas' => '../pages/marcas.php',
-	'Usuários' => '../pages/usuarios.php',
-	'Vagas' => '../pages/vagas.php',
-	'Logs' => '../pages/logs.php',
-	'Pico' => '../pages/pico.php',
+		'Marcas' => '../pages/marcas.php',
+		'Usuários' => '../pages/usuarios.php',
+		'Vagas' => '../pages/vagas.php',
+		'Logs' => '../pages/logs.php',
+		'Pico' => '../pages/pico.php',
         '[Sair]' => '../pages/logout.php'
     ],	
     'Gerente' => [
@@ -95,19 +96,19 @@ $menuLinks = [
         'Relatório' => '../pages/relatorio.php',
         'Histórico' => '../pages/historico.php',
         'Valores' => '../pages/valores.php',
-	'Marcas' => '../pages/marcas.php',
-	'Usuários' => '../pages/usuarios.php',
-	'Vagas' => '../pages/vagas.php',
-	'Pico' => '../pages/pico.php',
+		'Marcas' => '../pages/marcas.php',
+		'Usuários' => '../pages/usuarios.php',
+		'Vagas' => '../pages/vagas.php',
+		'Pico' => '../pages/pico.php',
         '[Sair]' => '../pages/logout.php'
     ],
     'Funcionário' => [
         'Home' => '../pages/index.php',
-	'Cadastro' => '../pages/cadastro.php',
+		'Cadastro' => '../pages/cadastro.php',
         'Entrada' => '../pages/entrada.php',
         'Saída' => '../pages/saida.php',
-	'Marcas' => '../pages/marcas.php',
-	'Usuários' => '../pages/usuarios.php',
+		'Marcas' => '../pages/marcas.php',
+		'Usuários' => '../pages/usuarios.php',
         '[Sair]' => '../pages/logout.php'
     ]
 ];
@@ -124,7 +125,7 @@ $menuLinks = [
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-
+<header>
 <nav id="subHeader" class="navbar navbar-expand-lg">
 	<div class="container-fluid d-flex flex-row">
 
@@ -263,6 +264,7 @@ $menuLinks = [
         </div>
     </div>
 </nav>
+</header>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
