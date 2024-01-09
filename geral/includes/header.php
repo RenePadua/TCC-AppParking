@@ -147,6 +147,7 @@ $menuLinks = [
 		</div>
 		
 		<div class="position-absolute end-0">
+		     <a href="../pages/leitor.php"><i id="scanicondesktop" class="bi-qr-code-scan"></i></a>
 			<?php
 				echo "<span>" . $nivelAcesso . ": " .  $email . "</span>";
 			?>
@@ -160,10 +161,13 @@ $menuLinks = [
             <img id="headerimg" src="../img/logo.png" alt="logo projeto" style="width:40px;" class="rounded-pill">
         </a>
         <a id="navbarTitulo" class="navbar-brand" href="#">App Parking</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div id="togglediv">
+            <a href="../pages/leitor.php"><i id="scanicon" class="bi-qr-code-scan"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
         <div class="offcanvas bg-warning offcanvas-start" tabindex="-1" id="offcanvasNavbar"
              aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
@@ -259,10 +263,10 @@ $menuLinks = [
 					}
 					?>
 				</ul>
-
             </div>
         </div>
     </div>
+    
 </nav>
 </header>
 
